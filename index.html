@@ -1,23 +1,8 @@
-<!-- TODO App Project
-	 * Build an App that allows users to make a simple TODO List
-	 * Seems easy, but it will require all your skills that you've used up to this point!
-	 * Refer to the Example in the DSD if you need
-	 * Minimum:
-	 	* Use jQuery/JavaScript to allow users to make a list
-	 	* Create a button that cleans the todo list
-	 * Challenge:
-	 	* Use jQuery/JavaScript to allow users to edit/delete individual posts
-	 * Hints:
-	 	* You're going to have to use JavaScript Variables and Arrays to do this project (well)
-	 	* Look up JavaScript functions to keep your code DRY (Don't Repeat Yourself)
-	 		* If you find yourself writing the same code twice, make it a function!
--->
 <!DOCTYPE html>
 <html>
 <head>
 	<!-- Title -->
 	<title>To Do App</title>
-	<!-- Remember to Import jQuery from google (https://developers.google.com/speed/libraries/)-->
 	<link href="main.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 	<script src="script.js"></script>
@@ -25,10 +10,12 @@
 	<!-- Or W3 Schools: http://www.w3schools.com/tags/att_script_src.asp & http://www.w3schools.com/css/css_howto.asp -->
 </head>
 <body>
-	<h1>Tom's To Do List</h1>
-	<input type="text" id="list-input" />
-	<input type="submit" id="add-button" value="Add to list">
-	<button id="delete-button">Delete List</button>
+	<h1>To Do List</h1>
+	<div id="list-creater">
+		<input type="text" id="list-input" />
+		<input type="submit" id="add-button" value="Add to list">
+		<button id="delete-button">Delete List</button>
+	</div>
 	<ol>
 	</ol>
 </body>

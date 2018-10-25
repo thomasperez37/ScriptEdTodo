@@ -1,1 +1,12 @@
-/* CSS Code */
+body {
+    border-style: solid;
+}
+h1 {
+    text-align: center;
+}
+li {
+    text-align: center
+}
+#list-creater {
+    padding: 0 40%;
+}
