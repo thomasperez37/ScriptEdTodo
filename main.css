@@ -5,8 +5,10 @@ h1 {
     text-align: center;
 }
 li {
-    text-align: center
+    text-align: center;
+    padding: 0px 0px;
 }
 #list-creater {
-    padding: 0 40%;
+    display: flex;
+    justify-content: center;
 }
