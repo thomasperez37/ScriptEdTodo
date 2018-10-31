@@ -12,3 +12,20 @@ li {
     display: flex;
     justify-content: center;
 }
+
+#cool-block {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 100px
+}
+
+.remove-button {
+    color: red;
+}
+
+.edit-button {
+    color: blue;
+}
